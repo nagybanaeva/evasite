@@ -41,17 +41,20 @@ a{
   font-family: 'Work Sans', sans-serif;
   font-size: 3rem;
   text-align: center;
+  margin: 1rem;
 }
 .gombocska{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.62rem;
-  margin: 0.62rem;
+  margin: 1rem;
+  border: 0.062rem solid transparent;
   width: 6.25rem;
   display: inline-block;
   text-align: center;
 }
 .gombdoboz{
-  text-align: center
+  text-align: center;
+  margin: 2rem;
 }
 .gombocska:hover{
   border: 0.062rem solid white;
