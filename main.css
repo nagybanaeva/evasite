@@ -1,0 +1,65 @@
+html, body{
+  height: 100%;
+  margin:0;
+  overflow: hidden;
+  display:flex;
+  flex-direction: column;
+  color: white;
+  font-family: arial;
+  background-image: url("assets/taj.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.kozepso{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fejlec{
+  display: flex;
+  justify-content: center;
+}
+.lablec{
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.fejleclink{
+  margin: 0 0.7rem;
+  color: white;
+}
+
+.oriasbetu{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+.gombocska{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.62rem;
+  margin: 0.62rem;
+  width: 6.25rem;
+  display: inline-block;
+  text-align: center;
+}
+.gombdoboz{
+  text-align: center
+}
+.gombocska:hover{
+  border: 0.062rem solid white;
+  transition-duration: 0.5s;
+}
+
+@media (min-width: 768px){
+    .fejlec, .gombocska, .lablec{
+      font-size: 2rem;
+    }
+}
